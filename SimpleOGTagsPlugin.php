@@ -28,9 +28,9 @@
     protected $_hooks = array(
         'install',
         'uninstall',
-		'public_head',
-		'define_routes',
-		'config',
+	'public_head',
+	'define_routes',
+	'config',
         'config_form'
 	);
 	
@@ -54,7 +54,7 @@
         delete_option('default_repository');  
     }
 	
-	function hookDefineRoutes($args)
+    function hookDefineRoutes($args)
     {
     $router = $args['router'];
 
